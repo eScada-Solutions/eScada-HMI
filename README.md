@@ -35,7 +35,7 @@ Device stands for: internal or external hard disks, USB keys, CD cards, CF cards
 OS Family stands for: Windows or Linux
 
 # Support
-We offer only an online support based on "Issues" and "Discussions" contexts of this repository.
+We offer an online support based on "Issues" and "Discussions" contexts of this repository.
 Other kind of direct support must be discussed with us, even though we are pleased to meet you wherever you are.
 
 # Greetings
