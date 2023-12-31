@@ -1,7 +1,6 @@
 ---
 name: How to ...
-about: These "how to" resources are valuable for both beginners and experienced developers
-  as they offer practical guidance and insights into various programming tasks
+about: How-to guides assist devs with practical insights
 title: ''
 labels: ''
 assignees: rossanoparis
