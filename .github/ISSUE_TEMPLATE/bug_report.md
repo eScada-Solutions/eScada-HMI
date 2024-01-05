@@ -7,6 +7,10 @@ assignees: rossanoparis
 
 ---
 
+<!--
+Please, use English language to report this issue.
+-->
+
 **Context (please complete the following information):**
  - OS Description: [e.g. Windows 10 Pro, Linux Mint 20.1]
  - OS Architecture: [e.g. x64, arm32, arm64]
