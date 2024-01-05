@@ -1,5 +1,4 @@
 <p align="center"> <img align="center" src="https://www.escadasolutions.com/git/escada-logo.png?raw=true" alt="eScada"/> </p>
-<p align="center">https://www.escadasolutions.com/</p>
 
 # eScada-HMI
 eScada The essential cross-platform HMI solution.
@@ -42,3 +41,4 @@ Other kind of direct support must be discussed with us, even though we are pleas
 We would be very glad if you could try eScada.<br>
 Please ask other information you may need using "Issues" context or the contact form on our web site.<br>
 We wish you could enjoy to implement new HMI solutions using eScada, as much as we have enjoyed to develop it.
+<p align="center">https://www.escadasolutions.com/</p>
