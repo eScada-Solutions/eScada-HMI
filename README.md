@@ -37,8 +37,8 @@ We offer an online support based on "Issues" and "Discussions" contexts of this 
 Other kind of direct support must be discussed with us, even though we are pleased to meet you wherever you are.
 
 # Greetings
-<p align="center">🙂</p>
 We would be very glad if you could try eScada.<br>
 Please ask other information you may need using "Issues" context or the contact form on our web site.<br>
 We wish you could enjoy to implement new HMI solutions using eScada, as much as we have enjoyed to develop it.
+<p align="center">🙂</p>
 <p align="center">https://www.escadasolutions.com/</p>
