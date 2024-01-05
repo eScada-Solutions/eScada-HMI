@@ -1,6 +1,5 @@
 # eScada-HMI
-eScada The essential cross-platform HMI solution.
-
+eScada The essential cross-platform HMI solution.<br>
 Official website [ https://www.escadasolutions.com/ ]
 
 ![alt text](https://www.escadasolutions.com/git/escada-logo.png)
