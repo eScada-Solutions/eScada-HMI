@@ -1,6 +1,5 @@
 # eScada-HMI
-eScada The essential cross-platform HMI solution.<br>
-Official website [ https://www.escadasolutions.com/ ]
+eScada The essential cross-platform HMI solution.
 
 ![alt text](https://www.escadasolutions.com/git/escada-logo.png)
 
@@ -8,6 +7,7 @@ Official website [ https://www.escadasolutions.com/ ]
 - Thanks to eScada features you can choose the OS and the hardware that fits your needs, because it is an independent SW with a series of interesting properties.<br>
 - From everywhere in your company, or from a remote site, you can operate with your equipment as you were in front of it.<br>
 - A very cheap and powerful set of entirely configurable HMI development tools available for a wide range of applications.<br>
+Official website [ https://www.escadasolutions.com/ ]
 
 # About
 First of all, welcome to this site, and thank you for taking time to read this text.<br>
