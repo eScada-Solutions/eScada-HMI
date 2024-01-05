@@ -24,7 +24,7 @@ After all this development time a very cheap HMI solution has came, with many in
 
 # Development tools and run-time license
 There is no need to pay for the development tools, they can be used to implement a real solution without any restriction.<br>
-You will be able to try everything and only if you will be satisfied you will buy the license for the final run-time use.<br>
+<ins>Please, keep in mind that, you will be able to try everything and only if you will be satisfied you will buy the license for the final run-time use.</ins><br>
 Without a valid run-time license the only restriction is the run-time component will work for one hour.<br>
 
 - You will pay only for the run-time license.
