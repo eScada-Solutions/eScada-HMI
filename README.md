@@ -1,7 +1,7 @@
 # eScada-HMI
 eScada The essential cross-platform HMI solution.
 <p align="center">
-![alt text](https://www.escadasolutions.com/git/escada-logo.png)
+  ![alt text](https://www.escadasolutions.com/git/escada-logo.png)
 </p>
 - eScada doesn’t require any installation procedure nor compilation, because it is designed to be used on removable supports, without any dependencies with the OS or other frameworks.
 - Thanks to eScada features you can choose the OS and the hardware that fits your needs, because it is an independent SW with a series of interesting properties.
@@ -43,4 +43,4 @@ We would be very glad if you could try eScada.<br>
 Please ask other information you may need using "Issues" context or the contact form on our web site.
 
 We wish you could enjoy to implement new HMI solutions using eScada, as much as we have enjoyed to develop it.<br>
-🙂
+<p align="center">🙂</p>
