@@ -1,5 +1,4 @@
 <p align="center"> <img align="center" src="https://www.escadasolutions.com/git/escada-logo.png?raw=true" alt="eScada"/> </p>
-
 # eScada-HMI
 eScada The essential cross-platform HMI solution.
 
