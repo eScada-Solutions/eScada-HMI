@@ -9,8 +9,6 @@ eScada The essential cross-platform HMI solution.
 - From everywhere in your company, or from a remote site, you can operate with your equipment as you were in front of it.
 - A very cheap and powerful set of entirely configurable HMI development tools available for a wide range of applications.
 
-Official website [ https://www.escadasolutions.com/ ]
-
 # About
 First of all, welcome to this site, and thank you for taking time to read this text.<br>
 You are wondering why another SCADA with so many available choices 🙂
