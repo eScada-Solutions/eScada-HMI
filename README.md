@@ -10,9 +10,8 @@ eScada The essential cross-platform HMI solution.
 - A very cheap and powerful set of entirely configurable HMI development tools available for a wide range of applications.
 
 # About
-<p align="center">🙂</p>
 First of all, welcome to this site, and thank you for taking time to read this text.<br>
-You are wondering why another SCADA with so many available choices 🙂
+You are wondering why another SCADA with so many available choices
 
 Developing HMI solutions, often we have noticed that the cost for purchasing the run-time and development licenses was even more than the cost related to development time.<br>
 Another important thing we have noticed is that normally to reach the goal, you need to use few functions compared to the many features at your disposition.<br>
@@ -39,8 +38,7 @@ We offer an online support based on "Issues" and "Discussions" contexts of this 
 Other kind of direct support must be discussed with us, even though we are pleased to meet you wherever you are.
 
 # Greetings
-We would be very glad if you could try eScada.<br>
-Please ask other information you may need using "Issues" context or the contact form on our web site.
-
-We wish you could enjoy to implement new HMI solutions using eScada, as much as we have enjoyed to develop it.<br>
 <p align="center">🙂</p>
+We would be very glad if you could try eScada.<br>
+Please ask other information you may need using "Issues" context or the contact form on our web site.<br>
+We wish you could enjoy to implement new HMI solutions using eScada, as much as we have enjoyed to develop it.
