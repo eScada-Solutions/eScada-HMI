@@ -28,9 +28,9 @@ There is no need to pay for the development tools, they can be used to implement
 Without a valid run-time license the only restriction is the run-time component will work for one hour.<br>
 
 - You will pay only for the run-time license.
-- The license will be valid for the OS family and device chosen.
-Device stands for: internal or external hard disks, USB keys, CD cards, CF cards, ....<br>
-OS Family stands for: Windows or Linux
+- The license is strictly bound to the specific OS family and your physical device.
+OS Family refers to either Windows or Linux.
+The physical device refers to your specific hardware configuration.
 
 # Support
 We offer an online support based on "Issues" and "Discussions" contexts of this repository.<br>
