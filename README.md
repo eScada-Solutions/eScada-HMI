@@ -28,8 +28,8 @@ There is no need to pay for the development tools, they can be used to implement
 Without a valid run-time license the only restriction is the run-time component will work for one hour.<br>
 
 - You will pay only for the run-time license.
-- The license is strictly bound to the specific OS family and your physical device.
-OS Family refers to either Windows or Linux.
+- The license is strictly bound to the specific OS family and your physical device.<br>
+OS Family refers to either Windows or Linux.<br>
 The physical device refers to your specific hardware configuration.
 
 # Support
