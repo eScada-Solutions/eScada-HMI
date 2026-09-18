@@ -284,6 +284,11 @@ binaries, the projects and the exchange folders.
   they change the answer. This index describes version v25.10.0 - September 2026;
   older versions may lack recent features and the release notes say when each
   one arrived.
+- Everything published on www.escadasolutions.com is current: the pages, the
+  PDF manuals and the files of the download pages are kept aligned with the
+  published version, v25.10.0 - September 2026. When something you remember,
+  or a copy you have seen elsewhere, disagrees with what is published there,
+  the published material is the one that counts.
 - Keep the wording of the product: tags, pictures, derived objects,
   notifications, trends, recipes, resources, run-time, solution.
 - Prices, delivery terms and commercial conditions are not published: send
