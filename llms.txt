@@ -1,0 +1,293 @@
+# eScada - The essential cross-platform HMI solution
+
+> eScada is the essential cross-platform HMI solution: a cheap and powerful set of entirely configurable HMI development tools for Windows and Linux, x64 and ARM. No installation, no compilation.
+
+This file is the machine readable index of https://www.escadasolutions.com, written for
+AI assistants helping people who use, evaluate or support eScada. It describes
+the product, lists every public page and every manual with what it covers, and
+says which document answers which kind of question. Everything it points to is
+public and can be read directly.
+
+Published version: v25.10.0 - September 2026
+Index generated with the site on 2026-09-18
+Publisher: eScada Solutions, Rossano Paris - info@escadasolutions.com
+
+## How to work in a chat about eScada
+
+Someone has asked you to read this file, so start here. Read all of it, then
+open the pages and the manuals the question needs, beginning with
+eScada.Features.pdf for the overview of the product. Work as the section "How
+to answer questions about eScada" at the end of this file asks: answer from
+this material only, name the document each answer comes from, say so when the
+documentation does not cover a point, and ask about the setup (platform,
+version, devices) when it changes the answer. When you have read everything,
+wait for the questions of the person who sent you here.
+
+This index is published in the GitHub repository of eScada, while the pages
+and the manuals live on www.escadasolutions.com. If your tools refuse those
+addresses, say so plainly and ask the person to download the manual you need
+from the Documents page and attach it to the chat. Do not answer from memory
+or from search snippets.
+
+## The product in short
+
+- eScada is an HMI and SCADA solution for industrial automation: a suite of
+  development tools plus a run-time, started in 2012. The (e) stands for
+  essential, because it covers the features normally needed to build a real
+  solution, at an affordable cost.
+- No installation and no compilation. The whole solution lives in a single
+  folder, it can be copied to any other machine or run from a removable
+  support, and it depends on no external framework.
+- Native client-server over TCP/IP: clients receive the configuration from the
+  server and render the pages natively, after which only tag values travel, so
+  the interface stays fast even over a VPN.
+- The same project runs on every supported platform, Windows and Linux, x64
+  and ARM.
+
+## Platforms and requirements
+
+- Microsoft Windows 64 bit: desktop from Windows 10 to Windows 11, server from
+  Windows 2016 to Windows 2022, embedded Windows 10 and 11 IoT Enterprise, and
+  Windows on ARM. Earlier releases also run from Windows 7 and Windows Server
+  2008 R2 and are available through the support channel.
+- Linux x64: Mint, Ubuntu and Debian, glibc 2.27 or above, GTK 3.
+- Linux ARM 32 and 64 bit: Debian ARM, Ubuntu ARM and Raspberry Pi OS, on
+  Raspberry Pi and Kunbus RevolutionPi hardware, glibc 2.28 or above, GTK 3.
+  The executable property must be set on all the executable files provided.
+- On Windows the integrated HTML browser widget needs the Microsoft Edge
+  WebView2 Runtime, not preinstalled on every Windows version and published on
+  the download page. Everything else works without it.
+
+## Licences
+
+- The development tools are free of charge and have no restriction: a complete
+  solution can be built and tried with them.
+- Payment covers the run-time licence of the server component only. Without a
+  valid run-time licence the run-time works for one hour.
+- A licence is bound to the major release number, to the OS family (Windows or
+  Linux) and to the physical device it is registered on. A hardware clone or a
+  copy of a virtual machine needs its own licence.
+- One hardware replacement is granted free of charge, on sending the new
+  registration code, the previous original licence document and the previous
+  licence file. Until the new code arrives the previous licence file keeps the
+  solution running, with a warning message every hour.
+- Registered customers activate and manage their run-time licences in the
+  customer portal: https://www.escadasolutions.com/mdsite/licences/public/
+- Prices and commercial conditions are not published on the site: those
+  questions go to info@escadasolutions.com
+
+## The applications of the suite
+
+- eScada.Hmi.Manager: the hub of the suite, where a project is created,
+  configured and run. It holds devices and tags, notifications, trends, users,
+  recipes and resources.
+- eScada.Hmi.Pictures: the module where the pages of the operator interface are
+  drawn and configured without writing code, with the catalogues of events and
+  actions and the properties, events and animations of every widget.
+- The run-time server and client components. The folder structure and the
+  executables of each platform, the typical development, server and client
+  configurations and the default system users are described in
+  eScada.Development.Start. The default user to edit a project is "owner", the
+  default user of the client side is "admin".
+
+## How an HMI solution is built
+
+The programming levels of eScada, from the simplest to the most powerful:
+
+- devices and tags: the field data, configured per device in the Manager;
+- derived objects: functional blocks for timing and logic, maths and
+  statistics, data conversion, string handling and system tasks, with
+  diagnostic items that can trigger further actions;
+- expressions: the real-time evaluator used to pre-elaborate field data, enable
+  interface elements and trigger events, with mathematical, trigonometric,
+  boolean, string and conditional functions;
+- macros: sequential execution of functions and commands with timing control,
+  system and device management, dynamic tag pointers and bulk data operations;
+- Lua: the embedded scripting engine, the highest level, for complex logic,
+  advanced algorithms and the integration of external C, C++ and C# libraries.
+
+Around them: pictures (the operator pages, their widgets, events, actions and
+animations), notifications (activated, acknowledged and reset from the
+project), trends, recipes, users and resources.
+
+Lua reaches the eScada objects through dedicated contexts:
+
+- esProject: project information and system commands: read and write whole groups, save and load tag values, take snapshots of the running project
+- esSystem: file system utilities: user and temporary paths, file and folder checks, ZIP archive creation
+- esUtility: general purpose helpers: bitwise operations, Base64 encoding, UUID generation, CRC-16 and CRC-32 checksums
+- esEncryption: SHA-2 hashing, key derivation from passphrases and AES-256 encryption and decryption
+- esString: string manipulation with full UTF-8 support, plus runtime translation using the project languages
+- esTags: full access to project tags: read and write values, batch updates, scaling limits, metadata, polling and offline status
+- esNotification: activate, acknowledge and reset notifications, and update their messages dynamically
+
+## Features
+
+One page per feature, each one linked below with its summary.
+
+- [Native Client-server](https://www.escadasolutions.com/client-server-architecture/): Clients receive the configuration from the server and render pages natively: after that, only tag values travel, keeping the interface fast even over VPN.
+- [Native Cross-platform](https://www.escadasolutions.com/cross-platform-hmi-solution/): Windows and Linux, x64 and ARM, Raspberry Pi and RevPi included. One folder, any machine: no installation procedure, no compilation.
+- [Zero-install deploy](https://www.escadasolutions.com/replace-a-broken-panel-pc-in-minutes/): No installation: the whole solution lives in one folder. Copy it to any other hardware, or a removable support, and be running in minutes.
+- [Easy backup and restore](https://www.escadasolutions.com/backup-and-restore/): Back up the entire HMI solution and your recipes data with simple HMI commands, and restore them whenever you need.
+- [Data encryption](https://www.escadasolutions.com/data-encryption/): Files, communication channels and project data protected with keys derived from project passphrases: a vital security layer for data in transit and at rest.
+- [Action traceability](https://www.escadasolutions.com/action-traceability/): Parameter modifications and user access operations can be logged to your own database or to plain text files, building complete events and audit trails.
+- [Industrial server protocols](https://www.escadasolutions.com/connectivity-and-industry-4-0/): Several instances of OPC-UA, Modbus TCP, Weihenstephan and SECS/GEM servers running at the same time, ready for Industry 4.0 and the human-centric factory of Industry 5.0.
+- [20+ PLC drivers](https://www.escadasolutions.com/communication-drivers/): Allen Bradley, Siemens, Omron, Mitsubishi, GE Fanuc, Modbus, CAN Bus and more. New communication drivers are implemented on request.
+- [Database integration](https://www.escadasolutions.com/database-integration/): Read and write data on Microsoft SQL Server, MySQL, Oracle and the other major database engines using OleDB technology, on both Windows and Linux.
+- [Email & HTTP](https://www.escadasolutions.com/email-and-http/): Send emails with SSL/TLS and STARTTLS security, and perform HTTP and HTTPS requests directly from your HMI solution.
+- [Lua programming language](https://www.escadasolutions.com/lua-language/): Lua is embedded in eScada to offer an efficient way to operate with data, extending derived tags and integrating external C, C++ and C# libraries.
+- [SVG images](https://www.escadasolutions.com/svg-images/): Scalable Vector Graphics as image resources: shapes described mathematically, scaling infinitely without losing quality at any resolution.
+- [Animations](https://www.escadasolutions.com/animations/): Animated images in WebP and GIF format can be imported as project resources and played on your HMI pages, bringing pictures to life.
+- [Languages & audio](https://www.escadasolutions.com/languages-and-audio/): Localized user interface for multicultural plants, plus playback of WAV and MP3 audio resources differentiated by language, on server or client side.
+- [HTML browser](https://www.escadasolutions.com/html-browser/): A true web browser integrated in your HMI pages, capable of running modern HTML 5.0 websites: corporate portals, web applications and more.
+- [VNC client](https://www.escadasolutions.com/vnc-client/): An integrated VNC client to reach and operate remote systems directly from your HMI pages, without installing external applications.
+- [RTSP streaming](https://www.escadasolutions.com/rtsp-streaming/): Show live camera streams inside your pages through the RTSP protocol, keeping an eye on the plant right next to your process data.
+- [ONVIF integration](https://www.escadasolutions.com/onvif-integration/): A profile-agnostic ONVIF event client: subscribe to cameras and devices, receive their events and react to them from the HMI solution.
+- [SECS/GEM equipment](https://www.escadasolutions.com/secs-gem-equipment/): A native SECS/GEM implementation: expose the HMI solution as a GEM Equipment towards the factory host, with events, alarms, variables, remote commands and recipes.
+- [Licences management](https://www.escadasolutions.com/licences-management/): Self-service licence management: your run-time licences ready to activate, already tied to your orders and jobs, with your notes and end customers.
+
+## Documentation
+
+The manuals are PDF files published at
+https://www.escadasolutions.com/docs/pdf/<name>.pdf and listed on
+https://www.escadasolutions.com/download/documents/
+
+Start from [eScada.Features](https://www.escadasolutions.com/docs/pdf/eScada.Features.pdf), the commercial
+overview of the whole product, then open the manual that covers the question.
+
+### Development manuals
+
+- [eScada.Development.Start](https://www.escadasolutions.com/docs/pdf/eScada.Development.Start.pdf): The eScada folder structure and executables for each platform, with typical development, server and client configurations, how to start a project with no installation required, and the default system users.
+- [eScada.Development.Manager](https://www.escadasolutions.com/docs/pdf/eScada.Development.Manager.pdf): User guide of the eScada.Hmi.Manager application, the hub of the suite where a project is created, configured and run: one chapter per context, from devices and tags to notifications, trends, users, recipes and resources.
+- [eScada.Development.Pictures](https://www.escadasolutions.com/docs/pdf/eScada.Development.Pictures.pdf): User guide of the eScada.Hmi.Pictures module, where the pages of the operator interface are drawn and configured without writing code: the working environment, the catalogues of events and actions, and every widget with its properties, events and animations.
+- [eScada.Development.Derived](https://www.escadasolutions.com/docs/pdf/eScada.Development.Derived.pdf): Configuring and using derived objects: functional blocks for timing and logic, maths and statistics, data conversion, string handling and system tasks, with diagnostic items that can trigger further actions.
+- [eScada.Development.Expressions](https://www.escadasolutions.com/docs/pdf/eScada.Development.Expressions.pdf): Guide to the expression evaluator for real-time data manipulation: mathematical, trigonometric, boolean, string and conditional functions used to pre-elaborate field data, enable UI elements and trigger events.
+- [eScada.Development.Lua](https://www.escadasolutions.com/docs/pdf/eScada.Development.Lua.pdf): Guide to the embedded Lua scripting engine, the highest programming level in eScada: operating with eScada objects, implementing complex logic and algorithms, and integrating external C, C++ and C# libraries.
+- [eScada.Development.Macro](https://www.escadasolutions.com/docs/pdf/eScada.Development.Macro.pdf): Macros as orchestrators: sequential execution of functions and commands with timing control, system and device management, dynamic tag pointers and bulk data operations, between basic logic and full Lua scripting.
+- [eScada.Development.Licence](https://www.escadasolutions.com/docs/pdf/eScada.Development.Licence.pdf): How licence activation works through the licence portal: registration keys tied to the target hardware, new activations, reuse of a previous licence file, and replacement requests when the hardware changes.
+
+### Communication driver manuals
+
+One manual per driver, with the addresses, the data types and the parameters of
+the connection. Grouped by brand.
+
+Allen Bradley:
+- [eScada.Drivers.AllenBradleyDF1](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.AllenBradleyDF1.pdf)
+- [eScada.Drivers.AllenBradleyEIP](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.AllenBradleyEIP.pdf)
+- [eScada.Drivers.AllenBradleyPCCC](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.AllenBradleyPCCC.pdf)
+
+Mitsubishi:
+- [eScada.Drivers.Mitsubishi.FX](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.Mitsubishi.FX.pdf)
+- [eScada.Drivers.Mitsubishi.CL](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.Mitsubishi.CL.pdf)
+- [eScada.Drivers.Mitsubishi.SLMP1E](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.Mitsubishi.SLMP1E.pdf)
+- [eScada.Drivers.Mitsubishi.SLMP3E](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.Mitsubishi.SLMP3E.pdf)
+
+Omron:
+- [eScada.Drivers.OmronCMode](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.OmronCMode.pdf)
+- [eScada.Drivers.OmronEIP](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.OmronEIP.pdf)
+- [eScada.Drivers.OmronFinsCom](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.OmronFinsCom.pdf)
+- [eScada.Drivers.OmronFinsTcp](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.OmronFinsTcp.pdf)
+
+Kunbus RevPi:
+- [eScada.Drivers.Kunbus](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.Kunbus.pdf)
+
+CAN Bus:
+- [eScada.Drivers.SocketCAN](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.SocketCAN.pdf)
+- [eScada.Drivers.USBTin](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.USBTin.pdf)
+
+Kernel systems:
+- [eScada.Drivers.KernelCom](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.KernelCom.pdf)
+- [eScada.Drivers.KernelTcp](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.KernelTcp.pdf)
+
+Saia Burgess:
+- [eScada.Drivers.SBusCom](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.SBusCom.pdf)
+
+GE Fanuc:
+- [eScada.Drivers.GeSrtp](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.GeSrtp.pdf)
+
+Siemens S7, Tia:
+- [eScada.Drivers.SiemensLnk](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.SiemensLnk.pdf)
+- [eScada.Drivers.SiemensTcp](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.SiemensTcp.pdf)
+
+LTI Servo One:
+- [eScada.Drivers.LtiServoOne](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.LtiServoOne.pdf)
+
+Modbus:
+- [eScada.Drivers.ModbusTcp](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.ModbusTcp.pdf)
+- [eScada.Drivers.ModbusRtu](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.ModbusRtu.pdf)
+
+Applicom:
+- [eScada.Drivers.Applicom](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.Applicom.pdf)
+
+OPC-UA:
+- [eScada.Drivers.OpcUaTcp](https://www.escadasolutions.com/docs/pdf/eScada.Drivers.OpcUaTcp.pdf)
+
+## Downloads
+
+- Tools and run-time packages, Windows and Linux, x64 and ARM:
+  https://www.escadasolutions.com/download/tools/ - current version v25.10.0 - September 2026
+- Licence agreement: https://www.escadasolutions.com/dwn/eula.pdf
+- Previous versions: https://github.com/eScada-Solutions/eScada-HMI/releases
+- Release notes, year by year: https://www.escadasolutions.com/releasenotes/
+
+### Sample projects
+
+Working examples to download, run and modify (https://www.escadasolutions.com/download/samples/):
+
+- [PAGES.VINTAGE](https://www.escadasolutions.com/dwn/samples/PAGES.VINTAGE.zip): This sample offers an overview regarding what we call a "vintage" way to handle pictures (pages). There is no tag defined, only a few pictures useful to evaluate picture commands in a simple HMI solution. There are some resources defined as images.
+- [PAGES.FRAMES](https://www.escadasolutions.com/dwn/samples/PAGES.FRAMES.zip): This sample offers an overview regarding the use of "picture frame", an object useful to handle pictures (pages) using a more efficient and convenient approach. There is no tag defined, only a few pictures useful to evaluate picture commands in a simple HMI solution. There are some resources defined as images.
+
+### Deployment utilities
+
+Example utilities for the deployment of an HMI solution, free of charge and
+free to use, listed in the Utilities tab of https://www.escadasolutions.com/download/tools/
+They assume a single working folder named "workspace" holding the eScada
+binaries, the projects and the exchange folders.
+
+- [hmimswcfg](https://www.escadasolutions.com/dwn/utility/hmimswcfg.zip): Single PowerShell script that prepares a Windows 10 or 11 PC as an HMI station, entirely from the command line and without touching the Windows control panels. It sets the PC name, workgroup and time, keeps the PC always on with automatic updates disabled, removes notifications, sounds, lock screen and other disturbances, locks down Windows keys, gestures and touch keyboard, enables Remote Desktop, FTP and the firewall rules for the industrial protocols, and configures automatic logon with the HMI started at logon. Every step is proposed as a question and can be run in test mode first. Includes the language files and the user manual in five languages.
+- [escada-startup-msw](https://www.escadasolutions.com/dwn/utility/escada-startup-msw.zip): Example of automatic eScada startup on Windows, made of two files. escada.vbs launches escada.cmd with a hidden window, so nothing appears on the screen; the batch waits an optional delay, creates the public exchange folder if missing, moves the files dropped there by the maintenance staff (project, recipes, user and binary files) into the project tree, and finally starts the eScada server. The batch ends with two start variants, chosen by commenting one out: the start after the user log-on, where the batch launches the server and exits at once, and the start as a Windows service, where the batch waits for the server so that the service manager can monitor and stop it. The parameters to adapt (project name, working folder, paths) are grouped at the top of the batch.
+- [escada-service-msw](https://www.escadasolutions.com/dwn/utility/escada-service-msw.zip): Example of running eScada as a Windows service, so that the server starts with the PC before any user logs on. The service is created with NSSM, included in the archive: escada-service-install.cmd installs it, sets its description and the log-on account. The service program is the escada.cmd of the escada-startup-msw example with its service start variant enabled, never escada.vbs, which exits at once and would make the service restart in a loop. A one page note lists the commands needed afterwards: start, stop and query the service, change the executable path or the log-on account, uninstall it and view it from a remote PC.
+- [taskbar-msw](https://www.escadasolutions.com/dwn/utility/taskbar-msw.zip): TaskBar Hider v1.3, a small third-party freeware by IT Samples that hides and shows the Windows taskbar, either with a hotkey or from the command line: see its readme.txt for the usage. Its intended use is from the escada.cmd script of the escada-startup-msw example, which already contains a commented-out section that calls it: uncomment that section, after copying the program to the path it expects, to hide the taskbar before the HMI starts. Distributed as is with its readme and licence: it may be redistributed only in its entirety and must not be modified.
+
+## Site pages
+
+- [Contacts](https://www.escadasolutions.com/contacts/): Contact eScada Solutions. Send us a message, ask for information about the essential cross-platform HMI solution.
+- [Features](https://www.escadasolutions.com/features/): All eScada features, one per row. Cross-platform HMI, client-server, Industry 4.0 protocols, PLC drivers, Lua, encryption, SVG, multimedia and more.
+- [The essential cross-platform HMI solution](https://www.escadasolutions.com/): eScada is the essential cross-platform HMI solution for industrial automation and Industry 4.0. Windows and Linux, x64 and ARM. No installation, no compilation. Development suite free of charge.
+- [Thanks](https://www.escadasolutions.com/thanks/): Many thanks to the people and open source projects that made eScada possible.
+- [About](https://www.escadasolutions.com/about/): The story and philosophy behind eScada, the essential cross-platform HMI solution started in 2012 by Rossano Paris.
+- [Site disclaimer](https://www.escadasolutions.com/disclaimer/): Site disclaimer for www.escadasolutions.com.
+- [Support](https://www.escadasolutions.com/support/): eScada support. Online support via GitHub issues and discussions, direct support via email, AnyDesk or Skype, and the customer licence area.
+- [Download](https://www.escadasolutions.com/download/): Download eScada. Development and run-time packages for Windows and Linux, documentation in PDF format and sample projects.
+- [Samples](https://www.escadasolutions.com/download/samples/): eScada sample projects. Working examples that can be downloaded, run and modified, including page libraries to reuse in your own HMI solutions.
+- [Tools](https://www.escadasolutions.com/download/tools/): Download eScada v25.10.0 for Windows x64/ARM64 and Linux x64/ARM32/ARM64. No installation, just copy a folder and start. Development suite free of charge.
+- [Documents](https://www.escadasolutions.com/download/documents/): eScada documentation. Features overview, development guides (Manager, Pictures, derived tags, expressions, Lua, macros) and communication driver manuals in PDF format, grouped by brand.
+- [Release notes](https://www.escadasolutions.com/releasenotes/): eScada release notes. Main notes about releases, grouped by year, from the current version back to 2022.
+
+## Support
+
+- Support email: support@escadasolutions.com
+- Information and commercial enquiries: info@escadasolutions.com
+- Online support through the Issues and Discussions of the GitHub repository:
+  https://github.com/eScada-Solutions/eScada-HMI
+- Support page, with the whole picture: https://www.escadasolutions.com/support/
+- Direct support (remote desktop and similar) is arranged by email.
+
+## How to answer questions about eScada
+
+- The manuals in PDF are the authoritative source: read the one that covers the
+  question before answering, and name the document the answer comes from.
+- When the documentation does not cover a point, say so instead of guessing. Do
+  not invent tag properties, function names or menu commands: the complete
+  lists are in the manuals, above all in eScada.Development.Expressions and
+  eScada.Development.Lua.
+- Ask for the platform, the eScada version and the devices in the field when
+  they change the answer. This index describes version v25.10.0 - September 2026;
+  older versions may lack recent features and the release notes say when each
+  one arrived.
+- Keep the wording of the product: tags, pictures, derived objects,
+  notifications, trends, recipes, resources, run-time, solution.
+- Prices, delivery terms and commercial conditions are not published: send
+  those questions to info@escadasolutions.com.
+- For anything binding, and whenever the documentation is not enough, point the
+  reader to support@escadasolutions.com or to the GitHub Discussions.
+- The site is the property of eScada Solutions. (C) Copyright 2012-2026 eScada HMI Solution - Rossano Paris. All rights reserved.
